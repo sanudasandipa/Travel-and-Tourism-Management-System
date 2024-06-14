@@ -1,0 +1,63 @@
+.addArticle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .addArticle-content {
+    margin-top: 20px;
+    width: 70%;
+  }
+  
+  .addArticle-heading {
+    color: #69f3c5;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .addArticle-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .addArticle-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addArticle-label {
+    color: #005F40;
+  }
+  
+  .addArticle-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .addArticle-textarea {
+    resize: vertical;
+  }
+  
+  .addArticle-btn {
+    background-color: #005F40;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .addArticle-btn:hover {
+    background-color: #00402a;
+  }
+  

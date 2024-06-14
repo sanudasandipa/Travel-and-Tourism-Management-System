@@ -1,0 +1,39 @@
+/* EmployeeManage.css */
+.row {
+    display: flex;
+  }
+  
+  .col {
+    margin-right: px; /* Adjust as needed */
+    margin-left: 200px;
+  }
+  
+  
+  .col:last-child {
+    margin-right: 0;
+  }
+
+  .empbutton{
+    margin-top: 180px;
+  }
+  
+  .BD-button {
+    margin-bottom: 80px;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text color */
+    border: 2px solid #000000; /* Black border */
+    padding: 20px 20px; /* Adjust padding as needed */
+    font-size: large;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline block */
+    cursor: pointer; /* Add pointer cursor */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effect */
+  }
+  
+  .BD-button:hover {
+    background-color: #000000; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+    border-color: #000000; /* Change border color on hover */
+  }
+  

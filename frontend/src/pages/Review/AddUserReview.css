@@ -1,0 +1,111 @@
+.adduserreview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .adduserreview-form-container {.adduserreview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .adduserreview-form-container {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .adduserreview-form {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  }
+  
+  .adduserreview-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .adduserreview-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .adduserreview-select,
+  .adduserreview-textarea,
+  .adduserreview-file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .adduserreview-submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .adduserreview-submit-button:hover {
+    background-color: #45a049;
+  }
+  
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .adduserreview-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .adduserreview-form {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .adduserreview-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .adduserreview-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .adduserreview-select,
+  .adduserreview-textarea,
+  .adduserreview-file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .adduserreview-submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .adduserreview-submit-button:hover {
+    background-color: #45a049;
+  }
+  

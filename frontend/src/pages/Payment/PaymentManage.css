@@ -1,0 +1,28 @@
+.PayMbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .Pm-button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .Pm-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

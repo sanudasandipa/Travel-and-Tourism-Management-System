@@ -1,0 +1,73 @@
+.cal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cal-content {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-right: 70px;
+  }
+  
+  .cal-content h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cal-input-group {
+    margin-bottom: 20px;
+  }
+  
+  .cal-input-group label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cal-input-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cal-input-addon {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .cal-d-flex {
+    display: flex;
+  }
+  
+  .cal-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .cal-btn-primary {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .cal-btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .cal-btn-secondary:hover {
+    background-color: #ddd;
+  }
+  

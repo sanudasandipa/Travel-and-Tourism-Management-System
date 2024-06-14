@@ -1,0 +1,52 @@
+.navHome {
+  background-color: rgba(66, 155, 66, 0.7);
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .logo {
+    width: 100px; 
+    height: auto; 
+    margin-right: 500px;
+    /* transform: rotate(270deg) */
+  }
+  
+  .navHome ul {
+    list-style-type: none;
+    margin-left:10px
+  }
+  
+  .navHome li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav-button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .nav-button:hover {
+    background-color: white;
+    color: green;
+  }
+  
+  .nav-Sbutton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: rgb(1, 108, 1);
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .nav-Sbutton:hover {
+    background-color: white;
+    color: green;
+  }
+  

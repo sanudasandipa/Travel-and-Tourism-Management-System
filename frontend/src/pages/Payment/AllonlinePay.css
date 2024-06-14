@@ -1,0 +1,58 @@
+.all-online-payments-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.all-online-payments-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.all-online-payments-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.all-online-payments-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.all-online-payments-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #188b2d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.all-online-payments-button:hover {
+    background-color: #0d732ca5;
+}
+
+.all-online-payments-text-center {
+    text-align: center;
+}
+
+.all-online-payments-text-danger {
+    font-size: 0.875rem;
+    color: #dc3545;
+}

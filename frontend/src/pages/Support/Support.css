@@ -1,0 +1,26 @@
+/* Container for buttons */
+.support {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Align items in the center horizontally */
+  margin-top: 20px; /* Add margin on top */
+  margin-bottom: 400px;
+}
+
+/* Style for buttons */
+.SupportU-Button {
+  background-color: #005F40; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  margin-bottom: 10px; /* Add margin between buttons */
+  font-size: 20px; /* Font size */
+  cursor: pointer; /* Show pointer on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  margin-top: 40px;
+}
+
+.SupportU-Button:hover {
+  background-color: #003D27; /* Darker background color on hover */
+}

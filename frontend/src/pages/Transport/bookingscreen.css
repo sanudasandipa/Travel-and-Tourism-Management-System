@@ -1,0 +1,37 @@
+.transbooking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+  }
+  
+  .transbooking-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .transbooking-button {
+    background-color: #005F40;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .transbooking-success {
+    color: green;
+  }
+  
+  .transbooking-error {
+    color: red;
+  }
+  

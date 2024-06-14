@@ -1,0 +1,64 @@
+.employee-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .employee-form h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .employee-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .employee-form input,
+  .employee-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .employee-form select {
+    appearance: none;
+  }
+  
+  .employee-form .text-danger {
+    font-size: 0.875rem;
+    color: #dc3545;
+  }
+  
+  .employee-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .employee-form button:hover {
+    background-color: white;
+    color: green;
+  }
+  
+  .employee-form .text-center {
+    text-align: center;
+  }
+  

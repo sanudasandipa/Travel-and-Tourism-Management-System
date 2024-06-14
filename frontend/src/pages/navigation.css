@@ -1,0 +1,57 @@
+.nav {
+  background-color: rgba(66, 155, 66, 0.7);    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .logo1 {
+    width: 100px; 
+    height: auto; 
+    margin-right: 100px;
+    /* transform: rotate(deg); */
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  
+  .nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav-button,
+  .nav-Sbutton {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .nav-lbutton {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: medium;
+  }
+
+  .nav-button:hover,
+  .nav-Sbutton:hover {
+    background-color: white;
+    color: green;
+  }
+
+  .nav-lbutton:hover {
+    background-color: white;
+    color: green;
+  }
+  
+  .nav-Sbutton {
+    background-color: rgb(1, 108, 1);
+  }
+  

@@ -1,0 +1,132 @@
+/* AllContacts container */
+.AllContacts-container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    margin-bottom: 300px;
+  }
+  
+  /* AllContacts heading */
+  .AllContacts-heading {
+    color: #52e3b3;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  /* AllContacts buttons */
+  .AllContacts-btn {
+    background-color: #005F40;
+    border-color: #005F40;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* AllContacts table */
+  .AllContacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  /* AllContacts table heading */
+  .AllContacts-table-heading {
+    color: #005F40;
+  }
+  
+  /* AllContacts table data */
+  .AllContacts-table-data {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* AllContacts input */
+  .AllContacts-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* AllContacts actions */
+  .AllContacts-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* AllContacts modal */
+  .AllContacts-modal {
+    display: block;
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    outline: 0;
+  }
+  
+  /* AllContacts modal dialog */
+  .AllContacts-modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  /* AllContacts modal content */
+  .AllContacts-modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 4px;
+    outline: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* AllContacts modal header */
+  .AllContacts-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+  }
+  
+  /* AllContacts modal title */
+  .AllContacts-modal-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  /* AllContacts modal body */
+  .AllContacts-modal-body {
+    padding: 15px;
+  }
+  
+  /* AllContacts modal footer */
+  .AllContacts-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f5f5f5;
+  }
+  
+  /* AllContacts modal close button */
+  .AllContacts-modal .close {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  

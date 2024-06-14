@@ -1,0 +1,53 @@
+.tour-packages-page {
+  text-align: center; /* Center align content */
+}
+
+.description-section {
+  background-color: rgba(255, 255, 255, 0.8); /* White transparent background */
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px auto; /* Center the description box */
+  max-width: 800px; /* Limit width of description box */
+}
+
+.description-box {
+  color: black; /* Title color */
+}
+
+.packages-section {
+  padding: 20px;
+}
+
+.package-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align cards */
+}
+
+.package-card {
+  width: 120px; /* Adjust card width based on the number of cards per row */
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* White transparent background */
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.package-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px; /* Rounded corners for images */
+}
+
+.package-card .card-content {
+  color: black; /* Text color */
+}
+
+.package-card a {
+  text-decoration: none; /* Remove underline from links within package-card */
+  color: inherit; /* Preserve the default text color */
+}
+
+.packages-section h3 {
+  color: white; /* Title color */
+}

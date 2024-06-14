@@ -1,0 +1,16 @@
+/* map.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  .map-image {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Set maximum width if necessary */
+    margin-top: 20px; /* Adjust margin top as needed */
+  }
+  

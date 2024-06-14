@@ -1,0 +1,94 @@
+/* Button for calculating payrolls */
+
+
+.btn-calc-payroll {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn-calc-payroll:hover {
+    background-color: #218838; /* Darker green color */
+}
+
+/* Table containing payroll data */
+.payroll-table {
+    margin-top: 20px;
+   
+}
+
+.payroll-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.payroll-table th,
+.payroll-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.payroll-table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.payroll-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Button for updating payroll data */
+.btn-update {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.btn-update:hover {
+    background-color: #0056b3; /* Darker blue color */
+}
+
+/* Button for deleting payroll data */
+.btn-delete {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-delete:hover {
+    background-color: #c82333; /* Darker red color */
+}
+
+/* Button for downloading the payroll report */
+.custom-button-report {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 400px;
+    margin-left: 20px;
+}
+
+.custom-button-report:hover {
+    background-color: #170b96;
+}
+.payr {
+    margin-left: 500px;
+    color: rgb(255, 255, 255);
+  }

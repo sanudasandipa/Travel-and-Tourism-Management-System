@@ -1,0 +1,71 @@
+.loan-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 50px;
+    
+}
+
+.loan-table th,
+.loan-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.loan-table th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.loan-table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.custom-button-report {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 400px;
+    margin-left: 20px;
+}
+
+.custom-button-report:hover {
+    background-color: #170b96;
+}
+
+.loanupdate {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .loandelete {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loanupdate{
+    margin-left: 20px;
+    background-color: #188b2d; /* Blue color */
+    color: white;
+  }
+  
+  .loanupdate:hover {
+    background-color: #0d732ca5; /* Darker blue color */
+  }
+  
+  .loandelete{
+    background-color: #dc3545; /* Red color */
+    color: white;
+  }
+  
+  .loandeleter:hover {
+    background-color: #c82333; /* Darker red color */
+  }

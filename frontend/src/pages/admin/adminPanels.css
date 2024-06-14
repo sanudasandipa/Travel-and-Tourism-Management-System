@@ -1,0 +1,35 @@
+.admin-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .employee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left,
+  .right {
+    margin: 10px;
+  }
+  
+  .BO-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .BO-button:hover {
+    background-color: black;
+    color: white;
+  }
+  

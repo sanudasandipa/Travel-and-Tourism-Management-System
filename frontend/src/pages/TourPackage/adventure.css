@@ -1,0 +1,74 @@
+.package-page1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .locatinCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards */
+  }
+  
+  .package-info1 {
+    background-color: rgba(255, 255, 255, 0.8); /* White transparent background */
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px auto; /* Center the description box */
+  max-width: 800px; /* Limit width of description box */
+  }
+  
+  .package-cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .package-card1 {
+    width: 120px; /* Adjust card width based on the number of cards per row */
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* White transparent background */
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .package-card1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Rounded corners for images */
+  }
+  
+  .package-card1 .card-content1 {
+    color: black; /* Text color */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .map-button,
+  .book-button,
+  .review-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #16753e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    margin-right: 20px;
+  }
+  
+  .map-button:hover,
+  .book-button:hover{
+    background-color: #13c04d;
+  }
+  .review-button:hover {
+    background-color: #13c04d;
+  }
+
+  

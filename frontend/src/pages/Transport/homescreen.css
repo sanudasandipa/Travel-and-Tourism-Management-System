@@ -1,0 +1,55 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 600px;
+  }
+  
+  .bs {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .col-md-4 select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .vehicle-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .vehicle-card h2 {
+    margin-top: 0;
+  }
+  
+  .vehicle-card p {
+    margin: 0;
+  }
+  
+  .loader {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+  }
+  

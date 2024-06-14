@@ -1,0 +1,80 @@
+/* Style for the Admin Message Page */
+.adminmessage-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 400px;
+    
+  }
+
+  .adminmessage-page h2 {
+  color: #10b520;
+    
+  }
+  
+  /* Style for the table */
+  .adminmessage-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  /* Style for table header */
+  .adminmessage-table th {
+    padding: 10px;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for table body */
+  .adminmessage-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for action buttons */
+  .adminmessage-button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #10b520;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .adminmessage-button:hover {
+    background-color: #118807;
+  }
+  
+  /* Style for ComposeReply component */
+  .adminmessage-compose-reply-container {
+    margin-top: 20px;
+  }
+  
+  .adminmessage-compose-reply-header {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .adminmessage-compose-reply-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .adminmessage-compose-reply-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .adminmessage-compose-reply-form textarea {
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .adminmessage-compose-reply-form button {
+    width: 100px;
+    align-self: flex-start;
+  }
+  

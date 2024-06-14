@@ -1,0 +1,57 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+    margin-right: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"],
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  

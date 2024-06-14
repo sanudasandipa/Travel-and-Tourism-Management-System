@@ -1,0 +1,63 @@
+/* AddUserReview.css */
+
+.my-review-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .my-review-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: bisque;
+  }
+  
+  .my-review-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .my-review-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .my-review-email,
+  .my-review-title,
+  .my-review-description,
+  .my-review-rating,
+  .my-review-image {
+    margin-bottom: 5px;
+  }
+  
+  .my-review-delete-button,
+  .my-review-update-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .my-review-delete-button:hover,
+  .my-review-update-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .my-review-loading,
+  .my-review-error {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .my-review-error {
+    color: red;
+  }
+  

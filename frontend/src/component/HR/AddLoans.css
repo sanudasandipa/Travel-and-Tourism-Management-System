@@ -1,0 +1,115 @@
+/* AddLoans.css */
+
+.custom-add-loan-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  margin-top: 60px;
+  width: 150%; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+  .custom-container {
+    width: 150%;
+    padding-right: 100px;
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .custom-card {
+    background-color: #ffffffb7;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .custom-card {
+    background-color: #ffffffb7;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width:150%; /* Adjust width as needed */
+  }
+  
+  .custom-container {
+    width:150%; 
+    padding-right: 50px; 
+  }
+  
+  
+  
+  
+  .custom-card-body {
+    padding: 20px;
+    padding-right: 50px;
+  }
+  
+  .custom-text-center {
+    text-align: center;
+  }
+  
+  .custom-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .custom-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .custom-input-group {
+    display: flex;
+  }
+  
+  .custom-input-group-prepend {
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .custom-input-group-text {
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .custom-btn {
+    padding: 10px 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-btn-success {
+    background-color: green;
+  }
+  
+  .custom-btn:hover {
+    background-color: white;
+    color: green;
+  }
+  
+  .custom-text-danger {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  /* CSS */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,74 @@
+/* AllOfflinePayments.css */
+
+.custom-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin-bottom: 100px;
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .custom-col-auto {
+    flex: 0 0 auto;
+  }
+  
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .custom-button-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-button-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .custom-button-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .emph1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+  }
+  
+  .custom-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .custom-table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  

@@ -1,0 +1,27 @@
+/* Message.css */
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .message-Button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: 2px solid #ffffff; /* White border */
+    background-color: transparent;
+    color: #ffffff; /* White text */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .message-Button:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #333333; /* Dark text on hover */
+  }
+  

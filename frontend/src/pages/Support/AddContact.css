@@ -1,0 +1,63 @@
+/* AddContact container */
+.addcontact-container {
+    display: flex;
+  
+  }
+  
+  /* AddContact form */
+  .addcontact-form {
+    margin-left: 210px;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.829);
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 200px;
+  }
+  
+  /* AddContact form group */
+  .addcontact-form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* AddContact form control */
+  .addcontact-form-control {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #005f40;
+  }
+  
+  /* AddContact text-danger */
+  .addcontact-text-danger {
+    color: #dc3545;
+  }
+  
+  /* AddContact button */
+  .addcontact-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* AddContact button primary */
+  .addcontact-btn-primary {
+    background-color: #005f40;
+    border-color: #005f40;
+    color: #fff;
+  }
+  
+  /* AddContact button primary:hover */
+  .addcontact-btn-primary:hover {
+    background-color: #004226;
+  }
+  

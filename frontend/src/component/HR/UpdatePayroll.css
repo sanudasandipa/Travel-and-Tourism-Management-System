@@ -1,0 +1,66 @@
+/* UpdatePayroll.css */
+.update-payroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.update-payroll-form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffffab;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-right: 50px;
+    margin-bottom: 60px;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-cancel-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-submit-btn:hover,
+.form-cancel-btn:hover {
+    background-color: white;
+    color: green;
+}
