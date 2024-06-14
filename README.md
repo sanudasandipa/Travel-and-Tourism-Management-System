@@ -14,7 +14,8 @@ npm start
 ## Screenshots
 
 
-![Screenshot](https://ibb.co/xYrdWgR)
+[![Screenshot](https://i.ibb.co/dtHxFpz/Whats-App-Image-2024-06-14-at-21-25-33.jpg)](https://ibb.co/xYrdWgR)
+
 
 
 
